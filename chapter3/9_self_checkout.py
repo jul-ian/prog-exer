@@ -25,9 +25,13 @@ except:
 try:
 	quant1 = int(quant1)
 	quant2 = int(quant2)
-	qunat3 = int(quant3)
+	quant3 = int(quant3)
 except:
 	sys.exit("Quantities should be integers.")
 
+tax_rate = 0.055
 subtotal = sum(map(lambda x, y: x*y, [price1, price2, price3], [quant1, quant2, quant3]))
+tax = int(100 * round((subtotal/100) * tax_rate, 2))
+total = subtotal + tax
 
+print(f"Subtotal: ${subtotal/100:.2f}\nTax: ${tax/100:.2f}\nTotal: ${total/100:.2f}")
