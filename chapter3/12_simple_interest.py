@@ -14,5 +14,5 @@ except:
 str_years = "years" if years > 1 else "year"
 years = int(years) if int(years) == years else years
 
-print(f"After {years} {str_years} at {interest}%, the investment will be worth {principal * (1 + years * (interest / 100)):.2f}")
+print(f"After {years} {str_years} at {interest}%, the investment will be worth ${principal * (1 + years * (interest / 100)):.2f}")
 
