@@ -7,4 +7,5 @@ Chapter 3 - Calculations
 
 Chapter 4 - Making Decisions
 
+Chapter 5 - Functions
 
