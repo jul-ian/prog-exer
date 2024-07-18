@@ -1,13 +1,25 @@
 # Exercises for Programmers
 
-Working through the book "Exercises for Programmers" by Brian P. Hogan
+## Purpose
+Working through the book "Exercises for Programmers" by Brian P. Hogan. 
+Repository will hold code solutions to the exercises provided in the 
+book.
 
-Chapter 2 - Input, Processing, and Output
+Chapters:
 
-Chapter 3 - Calculations
+- 2. Input, Processing, and Output
 
-Chapter 4 - Making Decisions
+- 3. Calculations
 
-Chapter 5 - Functions
+- 4. Making Decisions
 
-Chapter 6 - Repetition
+- 5. Functions
+
+- 6. Repetition
+
+## Languages
+
+- Python
+
+- C
+
